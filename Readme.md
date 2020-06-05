@@ -1,4 +1,4 @@
- # ESP32-Radio with Spectrum analyzer
+ # ESP32-Radio with SalatTime
 
 It is a fork of my:<br/>
 https://github.com/blotfi/ESP32-Radio-with-Spectrum-analyzer
@@ -35,12 +35,12 @@ My config file:
     
     # Example configuration
     # Programmable input pins:
-    gpio_00 = uppreset = 1
-    gpio_12 = upvolume = 2
-    gpio_13 = downvolume = 2
-    gpio_14 = stop
-    gpio_17 = resume
-    gpio_34 = station = icecast.omroep.nl:80/radio1-bb-mp3
+    # gpio_00 = uppreset = 1
+    # gpio_12 = upvolume = 2
+    # gpio_13 = downvolume = 2
+    # gpio_14 = stop
+    # gpio_17 = resume
+    # gpio_34 = station = icecast.omroep.nl:80/radio1-bb-mp3
     #
     # MQTT settings
     mqttbroker = none
